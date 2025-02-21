@@ -45,13 +45,13 @@ As an AI developer, I want training questions to be categorized separately from 
 
 ## Preliminary Tasks:
 
-- [ ]Identify common categories of training questions (e.g., programming, mathematics, general knowledge).
+- [ ] Identify common categories of training questions (e.g., programming, mathematics, general knowledge).
 
-- [ ]Review existing training datasets to understand their current format and structure.
+- [ ] Review existing training datasets to understand their current format and structure.
 
-- [ ]Interview developers to assess whether question-answer separation improves their workflow.
+- [ ] Interview developers to assess whether question-answer separation improves their workflow.
 
-- [ ]Explore possible UI/UX designs for a better categorization system.
+- [ ] Explore possible UI/UX designs for a better categorization system.
 
 - [ ] If categorization alone isn’t enough, identify the simplest technology to enhance organization.
 
