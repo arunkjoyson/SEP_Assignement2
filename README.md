@@ -31,15 +31,15 @@ As an AI developer, I want training questions to be categorized separately from 
 
 - Ask developers how often they struggle with mixed question-answer data when using training datasets.
 
-- Do you think Determine whether categorization improves searchability and organization in AI training ? 
+- Do you think determining whether categorization improves searchability and organization in AI training?
 
-**Follow-Up Questions**
-	
-    - What methods were tried before to organise ?
+  - **Follow-Up Questions:**
+
+    - What methods were tried before to organize?
 
     - What are the common categories you think are good?
 
-- Do you  actively use datasets with separate questions and answers to measure self-affirmation impact.
+- Do you actively use datasets with separate questions and answers to measure self-affirmation impact?
 
 - Do you think categorization is enough to fix this issue?
 
