@@ -23,15 +23,15 @@ As an AI developer, I want training questions to be categorized separately from 
 
 ## Assumption:
 
-- Developers benefit from self-affirmation when questions and answers are separated.
+1. Developers benefit from self-affirmation when questions and answers are separated.
 
-- Categorization improves retrieval, filtering, and dataset usability.
+2. Categorization improves retrieval, filtering, and dataset usability.
 
 ## Validation:
 
-- Ask developers how often they struggle with mixed question-answer data when using training datasets.
+- Ask developers how often they struggle with mixed question-answer data when using training datasets.[1]
 
-- Do you think determining whether categorization improves searchability and organization in AI training?
+- Do you think determining whether categorization improves searchability and organization in AI training?[2]
 
   - **Follow-Up Questions:**
 
@@ -39,9 +39,9 @@ As an AI developer, I want training questions to be categorized separately from 
 
     - What are the common categories you think are good?
 
-- Do you actively use datasets with separate questions and answers to measure self-affirmation impact?
+- Do you actively use datasets with separate questions and answers to measure self-affirmation impact?[1]
 
-- Do you think categorization is enough to fix this issue?
+- Do you think categorization is enough to fix this issue?[2]
 
 ## Preliminary Tasks:
 
@@ -73,22 +73,22 @@ As an AI developer, I want the training data to be balanced and free of biases s
 
 ## Assumption:  
 
-- Unbalanced training data negatively affects AI model performance.  
-- Biases exist in web-scraped data and need mitigation.  
+1. Unbalanced training data negatively affects AI model performance.  
+2. Biases exist in web-scraped data and need mitigation.  
 
 ## Validation:  
 
-- Do analysis of scraped training data to check for common biases (e.g., gender, racial, political biases).  
+- Do analysis of scraped training data to check for common biases (e.g., gender, racial, political biases).[1]  
   - **Follow-Up Questions:**  
     - What methods are currently used to detect biases in the training data?  
     - How frequently are biases identified in the current datasets?  
 
-- Compare AI performance metrics before and after applying bias mitigation techniques.  
+- Compare AI performance metrics before and after applying bias mitigation techniques.[1]
   - **Follow-Up Questions:**  
     - What specific performance metrics are used to evaluate AI models?  
     - How significant is the performance improvement after bias mitigation?  
 
-- Gather feedback from developers on whether biased datasets have affected their previous models.  
+- Gather feedback from developers on whether biased datasets have affected their previous models.[2]  
   - **Follow-Up Questions:**  
     - Can you provide examples of how biased data has impacted your models?  
     - What steps have you taken in the past to address these biases?  
@@ -118,25 +118,24 @@ As an AI developer, I want the training data to be balanced and free of biases s
 As an AI developer, I want an automated web scraping module that retrieves publicly available data from diverse sources so that I can efficiently collect training data easily.  
 
 ## Assumptions:  
-
-- AI developers collect training data through web scraping.  
-- Web scraping is the most efficient method to gather large-scale training data.  
-- Publicly available data can be used without legal restrictions.  
+1. AI developers collect training data through web scraping.  
+2. Web scraping is the most efficient method to gather large-scale training data.  
+3. Publicly available data can be used without legal restrictions.  
 
 ## Validation:  
 
-- How do you collect training data?  
-- Ask whether the current web scraping process is manual or semi-automated.  
+- How do you collect training data?[1]  
+- Ask whether the current web scraping process is manual or semi-automated.[1]  
   - **Follow-Up Questions:**  
     - How is the current web scraping process managed? Is it fully manual, semi-automated, or automated?  
     - What are the main challenges faced with the current process?  
 
-- Check if existing AI training workflows depend on external scraping tools.  
+- Check if existing AI training workflows depend on external scraping tools.[2]  
   - **Follow-Up Questions:**  
     - Are there any specific external scraping tools currently in use? If so, which ones?  
     - How do these tools impact the overall AI training workflow?  
 
-- Confirm compliance with data collection regulations (e.g., robots.txt, legal policies).  
+- Confirm compliance with data collection regulations (e.g., robots.txt, legal policies).[3]  
   - **Follow-Up Questions:**  
     - Are there any specific legal or ethical concerns related to the data sources being scraped?  
     - How is compliance with data collection regulations currently ensured?  
@@ -166,23 +165,22 @@ As an AI developer, I want an automated web scraping module that retrieves publi
 As an AI developer, I want the system to allow configurable scraping parameters so that I can control source selection and frequency.  
 
 ## Assumptions:  
-
-- Not all data sources are equally valuable, and developers need filtering options.  
-- Scraping frequency needs to be adjustable based on data availability and project needs.  
+1. Not all data sources are equally valuable, and developers need filtering options.  
+2. Scraping frequency needs to be adjustable based on data availability and project needs.  
 
 ## Validation:  
 
-- Gather feedback from developers on the most commonly needed filtering parameters.  
+- Gather feedback from developers on the most commonly needed filtering parameters.[1]  
   - **Follow-Up Questions:**  
     - What filtering parameters do you find most useful in your current workflow?  
     - How often do you need to adjust scraping parameters?  
 
-- Determine whether frequent scraping causes redundant or unnecessary data collection.  
+- Determine whether frequent scraping causes redundant or unnecessary data collection.[2]  
   - **Follow-Up Questions:**  
     - Have you experienced issues with redundant data collection? If so, how often?  
     - How do you currently manage redundant or unnecessary data?  
 
-- Assess if parameter customization improves data quality and reduces preprocessing effort.  
+- Assess if parameter customization improves data quality and reduces preprocessing effort.[2]  
   - **Follow-Up Questions:**  
     - How does parameter customization impact your data preprocessing efforts?  
     - Can you provide examples of how customized parameters have improved data quality?  
@@ -212,22 +210,22 @@ As an AI developer, I want the system to allow manual review, editing, and remov
 
 ## Assumptions:  
 
-- Automated scraping may introduce errors, irrelevant content, or biased data.  
-- Manual review is necessary to refine training datasets.  
+1. Automated scraping may introduce errors, irrelevant content, or biased data.  
+2. Manual review is necessary to refine training datasets.  
 
 ## Validation:  
 
-- Analyze how often developers manually correct training data in existing workflows.  
+- Analyze how often developers manually correct training data in existing workflows.[1]
   - **Follow-Up Questions:**  
     - How frequently do you manually review and correct training data?  
     - What types of errors or issues do you commonly encounter during manual review?  
 
-- Compare model performance before and after manual data curation.  
+- Compare model performance before and after manual data curation.[2]
   - **Follow-Up Questions:**  
     - How does manual data curation impact your model's performance?  
     - Can you provide examples of improvements seen after manual review?  
 
-- Determine if automated pre-filtering can reduce the need for manual review.  
+- Determine if automated pre-filtering can reduce the need for manual review.[2]  
   - **Follow-Up Questions:**  
     - Have you used automated pre-filtering before? If so, how effective was it?  
     - What additional features would improve automated pre-filtering for your needs?  
@@ -256,22 +254,22 @@ As an AI developer, I want the system to provide an API that integrates with ext
 
 ## Assumptions:  
 
-- Developers prefer seamless integration with existing AI tools.  
-- Manually exporting/importing data slows down the workflow.  
+1. Developers prefer seamless integration with existing AI tools.  
+2. Manually exporting/importing data slows down the workflow.  
 
 ## Validation:  
 
-- Identify the most commonly used AI training platforms requiring integration.  
+- Identify the most commonly used AI training platforms requiring integration.[1]
   - **Follow-Up Questions:**  
     - Which AI training platforms do you currently use?  
     - What integration features are most important to you?  
 
-- Ensure API usability with different programming languages and frameworks.  
+- Ensure API usability with different programming languages and frameworks.[1]
   - **Follow-Up Questions:**  
     - What programming languages and frameworks do you use for AI development?  
     - Have you encountered any issues with API usability in the past?  
 
-- Test API speed, security, and reliability under heavy data loads.  
+- Test API speed, security, and reliability under heavy data loads.[2]
   - **Follow-Up Questions:**  
     - How do you measure API performance in your workflows?  
     - What security concerns do you have regarding API integration?  
@@ -300,22 +298,22 @@ As an AI developer, I want the system to log all modifications and provide an au
 
 ## Assumptions:  
 
-- Training data modifications impact AI model performance and need traceability.  
-- Developers need to track changes to debug and refine datasets.  
+1. Training data modifications impact AI model performance and need traceability.  
+2. Developers need to track changes to debug and refine datasets.  
 
 ## Validation:  
 
-- Identify if developers currently struggle with tracking data modifications.  
+- Identify if developers currently struggle with tracking data modifications.[1]
   - **Follow-Up Questions:**  
     - How do you currently track modifications to your training data?  
     - What challenges do you face with the current tracking methods?  
 
-- Determine if auditing improves dataset consistency and debugging.  
+- Determine if auditing improves dataset consistency and debugging. [2]
   - **Follow-Up Questions:**  
     - How has auditing impacted your ability to maintain dataset consistency?  
     - Can you provide examples of how auditing has helped in debugging issues?  
 
-- Test the impact of detailed logs on system performance and usability.  
+- Test the impact of detailed logs on system performance and usability.[1]  
   - **Follow-Up Questions:**  
     - How do detailed logs affect your system's performance?  
     - What features would improve the usability of audit logs for you?  
@@ -344,22 +342,22 @@ As an AI developer, I want the system to provide search and filtering capabiliti
 
 ## Assumptions:  
 
-- Large datasets become unmanageable without proper filtering tools.  
-- Developers need advanced search options for efficient data retrieval.  
+1. Large datasets become unmanageable without proper filtering tools.  
+2. Developers need advanced search options for efficient data retrieval.  
 
 ## Validation:  
 
-- Analyze how developers currently search for training data.  
+- Analyze how developers currently search for training data.[2]  
   - **Follow-Up Questions:**  
     - How do you currently search for and retrieve training data?  
     - What challenges do you face with the current search and filtering methods?  
 
-- Determine if search and filtering improve dataset usability and processing speed.  
+- Determine if search and filtering improve dataset usability and processing speed.[1]  
   - **Follow-Up Questions:**  
     - How has the implementation of search and filtering tools impacted your workflow?  
     - Can you provide examples of improvements in data retrieval efficiency?  
 
-- Test the impact of different indexing methods on performance.  
+- Test the impact of different indexing methods on performance. [2]
   - **Follow-Up Questions:**  
     - What indexing methods have you tried, and how effective were they?  
     - What performance metrics do you use to evaluate indexing methods?  
@@ -387,22 +385,23 @@ As a system architect, I want the web scraping infrastructure to be scalable so 
 
 ## Assumptions:  
 
-- The volume of publicly available data will grow over time.  
-- The system must support parallel scraping for efficiency.  
+1. The volume of publicly available data will grow over time.  
+2. The system must support parallel scraping for efficiency.  
 
 ## Validation:  
 
-- Conduct load testing to determine the system’s current capacity.  
+- Conduct load testing to determine the system’s current capacity.[1]  
   - **Follow-Up Questions:**  
     - What is the current capacity of the web scraping infrastructure?  
-    - How does the system perform under varying levels of concurrent scraping requests?  
+    - How does the system perform under varying levels of concurrent scraping requests?
+    - Do you think this load will increase eventually?  
 
-- Monitor performance under varying levels of concurrent scraping requests.  
+- Monitor performance under varying levels of concurrent scraping requests.[2]  
   - **Follow-Up Questions:**  
     - What performance metrics are used to monitor the system?  
     - How does the system handle peak data demands?  
 
-- Benchmark against industry standards for scalable web scraping architectures.  
+- Benchmark against industry standards for scalable web scraping architectures.[1]  
   - **Follow-Up Questions:**  
     - What industry standards are used for benchmarking?  
     - How does the current infrastructure compare to these standards?  
@@ -430,22 +429,22 @@ As a system architect, I want an automated data preprocessing and cleaning pipel
 
 ## Assumptions:  
 
-- Raw scraped data may contain noise, duplicates, or incomplete information.  
-- A preprocessing step is necessary before feeding data into AI models.  
+1. Raw scraped data may contain noise, duplicates, or incomplete information.  
+2. A preprocessing step is necessary before feeding data into AI models.  
 
 ## Validation:  
 
-- Compare raw scraped data with cleaned datasets to measure improvements.  
+- Compare raw scraped data with cleaned datasets to measure improvements.[1]  
   - **Follow-Up Questions:**  
     - What improvements are observed after preprocessing?  
     - How is the quality of the cleaned data measured?  
 
-- Analyze the impact of preprocessing on AI model accuracy.  
+- Analyze the impact of preprocessing on AI model accuracy.[2]
   - **Follow-Up Questions:**  
     - How does preprocessing affect model accuracy?  
     - What metrics are used to evaluate the impact?  
 
-- Test the efficiency of different cleaning techniques (e.g., deduplication, normalization).  
+- Test the efficiency of different cleaning techniques (e.g., deduplication, normalization).[2]  
   - **Follow-Up Questions:**  
     - Which cleaning techniques are most effective?  
     - How is the efficiency of these techniques measured?  
@@ -473,25 +472,26 @@ As a system architect, I want a bias detection and balancing mechanism so that I
 
 ## Assumptions:  
 
-- Training data can contain biases that affect AI model performance. (IBM, 2023)  
-- Automated techniques can help identify and mitigate bias.  
+1. Training data can contain biases that affect AI model performance. (IBM, 2023)  
+2. Automated techniques can help identify and mitigate bias.  
 
 ## Validation:  
 
-- Measure bias levels in existing datasets using statistical methods.  
+- Measure bias levels in existing datasets using statistical methods.[1]  
   - **Follow-Up Questions:**  
     - What statistical methods are used to measure bias?  
     - How significant are the biases in the current datasets?  
 
-- Compare AI model outputs before and after applying bias mitigation techniques.  
+- Compare AI model outputs before and after applying bias mitigation techniques.[1]  
   - **Follow-Up Questions:**  
     - How do bias mitigation techniques affect model outputs?  
     - What metrics are used to evaluate the impact?  
 
-- Conduct fairness testing using diverse input scenarios.  
+- Conduct fairness testing using diverse input scenarios.[2]
   - **Follow-Up Questions:**  
     - What input scenarios are used for fairness testing?  
     - How is fairness measured in these scenarios?  
+    - Do you think automated techniques can help identify and mitigate bias?
 
 ## Preliminary Tasks:  
 
@@ -516,21 +516,21 @@ As a system architect, I want a secure API for data access and integration so th
 
 ## Assumptions:  
 
-- AI developers need a structured way to interact with the training dataset.  
-- Unauthorized access to training data should be prevented.  
+1. AI developers need a structured way to interact with the training dataset.  
+2. Unauthorized access to training data should be prevented.  
 
 ## Validation:  
 
-- Ask: How do you retrieve and submit training data now?  
-- Perform security penetration testing on the API.  
+- Ask: How do you retrieve and submit training data now?[1]  
+- Perform security penetration testing on the API. [2]
   - **Follow-Up Questions:**  
     - What security measures are currently in place for the API?  
     - How often is penetration testing conducted?  
-- Ensure API response times meet performance benchmarks.  
+- Ensure API response times meet performance benchmarks.[2]  
   - **Follow-Up Questions:**  
     - What are the current API response times?  
     - How do these times compare to performance benchmarks?  
-- Implement and test role-based access control mechanisms.  
+- Implement and test role-based access control mechanisms. [2] 
   - **Follow-Up Questions:**  
     - What role-based access controls are implemented?  
     - How effective are these controls in preventing unauthorized access?  
@@ -558,22 +558,22 @@ As a system architect, I want a logging and monitoring system to track data modi
 
 ## Assumptions:  
 
-- AI developers need visibility into data changes for debugging and compliance.  
-- System logs can help detect anomalies or unauthorized modifications.  
+1. AI developers need visibility into data changes for debugging and compliance.  
+2. System logs can help detect anomalies or unauthorized modifications.  
 
 ## Validation:  
 
-- Analyze logging data to identify trends in data modifications.  
+- Analyze logging data to identify trends in data modifications.[1]  
   - **Follow-Up Questions:**  
     - What trends are observed in the logging data?  
     - How are these trends used to improve data integrity?  
 
-- Ensure logs capture key events without affecting system performance.  
+- Ensure logs capture key events without affecting system performance.[2]  
   - **Follow-Up Questions:**  
     - What key events are captured in the logs?  
     - How is system performance monitored during logging?  
 
-- Test retrieval of historical logs for audit purposes.  
+- Test retrieval of historical logs for audit purposes.  [2]
   - **Follow-Up Questions:**  
     - How often are historical logs retrieved for audits?  
     - What challenges are faced during log retrieval?  
@@ -601,22 +601,22 @@ As a system architect, I want an efficient search and query engine so that I can
 
 ## Assumptions:  
 
-- Large datasets require advanced search capabilities for efficient retrieval.  
-- Developers need to filter data based on various criteria.  
+1. Large datasets require advanced search capabilities for efficient retrieval.  
+2. Developers need to filter data based on various criteria.  
 
 ## Validation:  
 
-- Measure search response times under different query loads.  
+- Measure search response times under different query loads.[1]
   - **Follow-Up Questions:**  
     - What are the current search response times?  
     - How do these times vary under different query loads?  
 
-- Compare search accuracy before and after implementing indexing techniques.  
+- Compare search accuracy before and after implementing indexing techniques.[1]  
   - **Follow-Up Questions:**  
     - How accurate are the search results before and after indexing?  
     - What indexing techniques are used?  
 
-- Gather developer feedback on ease of use and relevance of search results.  
+- Gather developer feedback on ease of use and relevance of search results.  [2]
   - **Follow-Up Questions:**  
     - How do developers rate the ease of use of the search engine?  
     - How relevant are the search results to their needs?  
