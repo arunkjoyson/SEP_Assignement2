@@ -33,11 +33,11 @@ As an AI developer, I want training questions to be categorized separately from 
 
 •Do you think Determine whether categorization improves searchability and organization in AI training ? 
 
-	Follow-Up Questions?
+    Follow-Up Questions?
+	
+    What methods were tried before to organise ?
 
-	What methods were tried before to organise ?
-
-	What are the common categories you think are good?
+    What are the common categories you think are good?
 
 •Do you  actively use datasets with separate questions and answers to measure self-affirmation impact.
 
