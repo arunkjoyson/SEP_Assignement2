@@ -638,3 +638,13 @@ As a system architect, I want an efficient search and query engine so that I can
 
 - A high-performance search engine that enables quick and accurate data retrieval.
 
+### Reference:
+
+[1] github.com. (n.d.). Line breaks. docs.github.com. [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks)
+
+[2] IBM. (2023). Shedding light on AI bias with real world examples. [https://www.ibm.com/](https://www.ibm.com/). [https://www.ibm.com/think/topics/shedding-light-on-ai-bias-with-real-world-examples](https://www.ibm.com/think/topics/shedding-light-on-ai-bias-with-real-world-examples)
+
+[3] www.reddit.com. (2023). AI-powered web scraper? [https://www.reddit.com/r/ChatGPTPro/comments/18nxnzd/aipowered_web_scraper/](https://www.reddit.com/r/ChatGPTPro/comments/18nxnzd/aipowered_web_scraper/)
+
+[4] www.appian.com/](https://appian.com/). (2024). How Does AI Model Training Work? [https://appian.com/blog/acp/ai/how-does-ai-model-training-work](https://appian.com/blog/acp/ai/how-does-ai-model-training-work)
+
