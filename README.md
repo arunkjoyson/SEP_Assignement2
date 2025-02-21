@@ -113,38 +113,51 @@ As an AI developer, I want the training data to be balanced and free of biases s
 
 # Q) define some Requirements which will include both functional and system requirements.
 
-Functional Requirement 1: Automated Web Scraping Module
-As an AI developer, I want an automated web scraping module that retrieves publicly available data from diverse sources so that I can efficiently collect training data easily.
-Assumptions:
-•	AI Developer collect training data though Web scraping.
-•	Web scraping is the most efficient method to gather large-scale training data.
-•	Publicly available data can be used without legal restrictions.
-Validation:
-1.	How do you collect training data?
-2.	Ask whether the current web scraping process is manual or semi-automated.
-o	Follow-Up Questions:
-	How is the current web scraping process managed? Is it fully manual, semi-automated, or automated?
-	What are the main challenges faced with the current process?
-3.	Check if existing AI training workflows depend on external scraping tools.
-o	Follow-Up Questions:
-	Are there any specific external scraping tools currently in use? If so, which ones?
-	How do these tools impact the overall AI training workflow?
-4.	Confirm compliance with data collection regulations (e.g., robots.txt, legal policies).
-o	Follow-Up Questions:
-	Are there any specific legal or ethical concerns related to the data sources being scraped?
-	How is compliance with data collection regulations currently ensured?
-Preliminary Tasks:
-•	Define the key data sources that need to be scrapped.
-•	Research available scraping technologies and tools.
-•	Implement a prototype to test data retrieval efficiency.
-•	Address potential legal and ethical concerns regarding web scraping.
-•	Evaluate the scalability of the module for high-volume data collection.
-Metrics for Success:
-•	Efficiency: Time taken to scrape data from each source should be reduced by 50%.
-•	Data Volume: Ability to retrieve at least 1GB of data per hour from multiple sources.
-•	Error Rate: Less than 2% error rate in data retrieval.
-•	Compliance: 100% adherence to legal and ethical standards.
-•	Scalability: Ability to handle a 100% increase in data volume without performance degradation.
-Outcome:
-•	An automated web scraping module that efficiently retrieves training data from multiple sources while ensuring compliance with legal and ethical standards.
+### Functional Requirement 1: Automated Web Scraping Module  
+
+As an AI developer, I want an automated web scraping module that retrieves publicly available data from diverse sources so that I can efficiently collect training data easily.  
+
+## Assumptions:  
+
+- AI developers collect training data through web scraping.  
+- Web scraping is the most efficient method to gather large-scale training data.  
+- Publicly available data can be used without legal restrictions.  
+
+## Validation:  
+
+- How do you collect training data?  
+- Ask whether the current web scraping process is manual or semi-automated.  
+  - **Follow-Up Questions:**  
+    - How is the current web scraping process managed? Is it fully manual, semi-automated, or automated?  
+    - What are the main challenges faced with the current process?  
+
+- Check if existing AI training workflows depend on external scraping tools.  
+  - **Follow-Up Questions:**  
+    - Are there any specific external scraping tools currently in use? If so, which ones?  
+    - How do these tools impact the overall AI training workflow?  
+
+- Confirm compliance with data collection regulations (e.g., robots.txt, legal policies).  
+  - **Follow-Up Questions:**  
+    - Are there any specific legal or ethical concerns related to the data sources being scraped?  
+    - How is compliance with data collection regulations currently ensured?  
+
+## Preliminary Tasks:  
+
+- [ ] Define the key data sources that need to be scraped.  
+- [ ] Research available scraping technologies and tools.  
+- [ ] Implement a prototype to test data retrieval efficiency.  
+- [ ] Address potential legal and ethical concerns regarding web scraping.  
+- [ ] Evaluate the scalability of the module for high-volume data collection.  
+
+## Metrics for Success:  
+
+- **Efficiency:** Time taken to scrape data from each source should be reduced by 50%.  
+- **Data Volume:** Ability to retrieve at least 1GB of data per hour from multiple sources.  
+- **Error Rate:** Less than 2% error rate in data retrieval.  
+- **Compliance:** 100% adherence to legal and ethical standards.  
+- **Scalability:** Ability to handle a 100% increase in data volume without performance degradation.  
+
+## Outcome:  
+
+- An automated web scraping module that efficiently retrieves training data from multiple sources while ensuring compliance with legal and ethical standards.
 
