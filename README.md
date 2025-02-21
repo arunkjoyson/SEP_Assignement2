@@ -381,3 +381,89 @@ As an AI developer, I want the system to provide search and filtering capabiliti
 
 - A powerful search and filtering system that enables developers to access training data efficiently.
 
+### System Requirement 1: Scalable Web Scraping Infrastructure  
+
+As a system architect, I want the web scraping infrastructure to be scalable so that it can handle increasing data demands without performance degradation.  
+
+## Assumptions:  
+
+- The volume of publicly available data will grow over time.  
+- The system must support parallel scraping for efficiency.  
+
+## Validation:  
+
+- Conduct load testing to determine the system’s current capacity.  
+  - **Follow-Up Questions:**  
+    - What is the current capacity of the web scraping infrastructure?  
+    - How does the system perform under varying levels of concurrent scraping requests?  
+
+- Monitor performance under varying levels of concurrent scraping requests.  
+  - **Follow-Up Questions:**  
+    - What performance metrics are used to monitor the system?  
+    - How does the system handle peak data demands?  
+
+- Benchmark against industry standards for scalable web scraping architectures.  
+  - **Follow-Up Questions:**  
+    - What industry standards are used for benchmarking?  
+    - How does the current infrastructure compare to these standards?  
+
+## Preliminary Tasks:  
+
+- [ ] Implement distributed scraping using multiple worker nodes.  
+- [ ] Optimize request throttling to prevent IP blocking.  
+- [ ] Integrate a queuing system for managing scraping jobs.  
+- [ ] Use cloud-based storage for efficient data management.  
+
+## Metrics for Success:  
+
+- **Scalability:** Ability to handle a 100% increase in data volume without performance degradation.  
+- **Performance:** Maintain response times under 2 seconds for 95% of requests.  
+- **Error Rate:** Less than 1% error rate during peak loads.  
+
+## Outcome:  
+
+- A web scraping infrastructure capable of scaling dynamically based on data demand.  
+
+### System Requirement 2: Data Preprocessing & Cleaning Pipeline  
+
+As a system architect, I want an automated data preprocessing and cleaning pipeline so that I can ensure high-quality and structured data for AI training.  
+
+## Assumptions:  
+
+- Raw scraped data may contain noise, duplicates, or incomplete information.  
+- A preprocessing step is necessary before feeding data into AI models.  
+
+## Validation:  
+
+- Compare raw scraped data with cleaned datasets to measure improvements.  
+  - **Follow-Up Questions:**  
+    - What improvements are observed after preprocessing?  
+    - How is the quality of the cleaned data measured?  
+
+- Analyze the impact of preprocessing on AI model accuracy.  
+  - **Follow-Up Questions:**  
+    - How does preprocessing affect model accuracy?  
+    - What metrics are used to evaluate the impact?  
+
+- Test the efficiency of different cleaning techniques (e.g., deduplication, normalization).  
+  - **Follow-Up Questions:**  
+    - Which cleaning techniques are most effective?  
+    - How is the efficiency of these techniques measured?  
+
+## Preliminary Tasks:  
+
+- [ ] Implement a module for detecting and removing duplicate data.  
+- [ ] Develop rules for filtering irrelevant or low-quality data.  
+- [ ] Automate data formatting to match AI training requirements.  
+- [ ] Log all preprocessing actions for auditability.  
+
+## Metrics for Success:  
+
+- **Data Quality:** >95% reduction in noise and duplicates.  
+- **Processing Speed:** Preprocessing time <1 second per data entry.  
+- **Model Accuracy:** >5% improvement in AI model accuracy after preprocessing.  
+
+## Outcome:  
+
+- A structured and high-quality dataset ready for AI training.
+
