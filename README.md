@@ -11,15 +11,15 @@
 
 The AI developer client uses web scraping to collect training data for AI models. However, they face two main challenges:
 
-1.Developers want to have categorized training questions that are separate from the answers because developers care about self-affirmation.\
+1.Developers want to have categorized training questions that are separate from the answers because developers care about self-affirmation.
 2.Developers want to know that the training data they are using is “balanced” (does not contain biases) because this will give them better AI models
 
 ---
-### Q) Analysis of current 2 requirements: \
+### Q) Analysis of current 2 requirements: 
 
 ### Requirement 1: Categorized Training Questions & Answers
 
-As an AI developer, I want training questions to be categorized separately from answers so that I can ensure self-affirmation.\
+As an AI developer, I want training questions to be categorized separately from answers so that I can ensure self-affirmation.
 
 ## Assumption:
 
@@ -29,15 +29,15 @@ As an AI developer, I want training questions to be categorized separately from 
 
 ## Validation:
 
-•Ask developers how often they struggle with mixed question-answer data when using training datasets.\
+•Ask developers how often they struggle with mixed question-answer data when using training datasets.
 
-•Do you think Determine whether categorization improves searchability and organization in AI training ?\ 
+•Do you think Determine whether categorization improves searchability and organization in AI training ? 
 
-	oFollow-Up Questions?\
+	Follow-Up Questions?
 
-	What methods were tried before to organise ?\
+	What methods were tried before to organise ?
 
-	What are the common categories you think are good?\
+	What are the common categories you think are good?
 
 •Do you  actively use datasets with separate questions and answers to measure self-affirmation impact.
 
