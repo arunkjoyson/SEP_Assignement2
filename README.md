@@ -294,3 +294,47 @@ As an AI developer, I want the system to provide an API that integrates with ext
 
 - A robust API that allows developers to integrate training data with their AI models seamlessly.  
 
+### Functional Requirement 5: Audit Logging & Modification Tracking  
+
+As an AI developer, I want the system to log all modifications and provide an audit trail for training data changes so that I can track data quality.  
+
+## Assumptions:  
+
+- Training data modifications impact AI model performance and need traceability.  
+- Developers need to track changes to debug and refine datasets.  
+
+## Validation:  
+
+- Identify if developers currently struggle with tracking data modifications.  
+  - **Follow-Up Questions:**  
+    - How do you currently track modifications to your training data?  
+    - What challenges do you face with the current tracking methods?  
+
+- Determine if auditing improves dataset consistency and debugging.  
+  - **Follow-Up Questions:**  
+    - How has auditing impacted your ability to maintain dataset consistency?  
+    - Can you provide examples of how auditing has helped in debugging issues?  
+
+- Test the impact of detailed logs on system performance and usability.  
+  - **Follow-Up Questions:**  
+    - How do detailed logs affect your system's performance?  
+    - What features would improve the usability of audit logs for you?  
+
+## Preliminary Tasks:  
+
+- [ ] Design a logging mechanism that captures all data modifications.  
+- [ ] Implement a search feature to filter logs by user, date, and action.  
+- [ ] Evaluate different storage solutions for long-term logging.  
+- [ ] Ensure compliance with industry best practices for data auditing.  
+
+## Metrics for Success:  
+
+- **Log Completeness:** 100% of key events captured.  
+- **System Performance:** <5% performance overhead due to logging.  
+- **Audit Efficiency:** Historical logs retrievable within 2 minutes.  
+- **Developer Satisfaction:** >85% satisfaction rate with the logging and tracking system.  
+
+## Outcome:  
+
+- A transparent logging system that helps developers track and manage training data modifications efficiently.
+
