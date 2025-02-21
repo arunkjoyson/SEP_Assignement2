@@ -23,15 +23,15 @@ As an AI developer, I want training questions to be categorized separately from 
 
 ## Assumption:
 
-•Developers benefit from self-affirmation when questions and answers are separated.
+-Developers benefit from self-affirmation when questions and answers are separated.
 
-•Categorization improves retrieval, filtering, and dataset usability.
+-Categorization improves retrieval, filtering, and dataset usability.
 
 ## Validation:
 
-•Ask developers how often they struggle with mixed question-answer data when using training datasets.
+-Ask developers how often they struggle with mixed question-answer data when using training datasets.
 
-•Do you think Determine whether categorization improves searchability and organization in AI training ? 
+-Do you think Determine whether categorization improves searchability and organization in AI training ? 
 
 - Follow-Up Questions?
 	
@@ -39,31 +39,31 @@ As an AI developer, I want training questions to be categorized separately from 
 
 - What are the common categories you think are good?
 
-•Do you  actively use datasets with separate questions and answers to measure self-affirmation impact.
+-Do you  actively use datasets with separate questions and answers to measure self-affirmation impact.
 
-•Do you think categorization is enough to fix this issue?
+-Do you think categorization is enough to fix this issue?
 
 ## Preliminary Tasks:
 
-•Identify common categories of training questions (e.g., programming, mathematics, general knowledge).
+-Identify common categories of training questions (e.g., programming, mathematics, general knowledge).
 
-•Review existing training datasets to understand their current format and structure.
+-Review existing training datasets to understand their current format and structure.
 
-•Interview developers to assess whether question-answer separation improves their workflow.
+-Interview developers to assess whether question-answer separation improves their workflow.
 
-•Explore possible UI/UX designs for a better categorization system.
+-Explore possible UI/UX designs for a better categorization system.
 
-•If categorization alone isn’t enough, identify the simplest technology to enhance organization.
+-If categorization alone isn’t enough, identify the simplest technology to enhance organization.
 
 ## Metrics for Success:
 
-•Accuracy of categorization: >95%.
+-Accuracy of categorization: >95%.
 
-•Processing Speed: Categorization time of <500ms per question.
+-Processing Speed: Categorization time of <500ms per question.
 
-•Developer Feedback: >80% satisfaction rate on data organization.
+-Developer Feedback: >80% satisfaction rate on data organization.
 
 ## Outcome:
 
-•A structured system where training questions are categorized and separate from answers, improving usability for developers.
+-A structured system where training questions are categorized and separate from answers, improving usability for developers.
 
