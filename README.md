@@ -552,3 +552,46 @@ As a system architect, I want a secure API for data access and integration so th
 
 - A secure and efficient API that enables seamless data interaction for AI developers.
 
+### System Requirement 5: Logging & Monitoring for Data Integrity  
+
+As a system architect, I want a logging and monitoring system to track data modifications so that I can ensure data integrity and accountability.  
+
+## Assumptions:  
+
+- AI developers need visibility into data changes for debugging and compliance.  
+- System logs can help detect anomalies or unauthorized modifications.  
+
+## Validation:  
+
+- Analyze logging data to identify trends in data modifications.  
+  - **Follow-Up Questions:**  
+    - What trends are observed in the logging data?  
+    - How are these trends used to improve data integrity?  
+
+- Ensure logs capture key events without affecting system performance.  
+  - **Follow-Up Questions:**  
+    - What key events are captured in the logs?  
+    - How is system performance monitored during logging?  
+
+- Test retrieval of historical logs for audit purposes.  
+  - **Follow-Up Questions:**  
+    - How often are historical logs retrieved for audits?  
+    - What challenges are faced during log retrieval?  
+
+## Preliminary Tasks:  
+
+- [ ] Implement a logging mechanism for all data modifications.  
+- [ ] Develop a monitoring dashboard to track key metrics.  
+- [ ] Set up alerts for unusual data changes.  
+- [ ] Optimize log storage for efficient retrieval.  
+
+## Metrics for Success:  
+
+- **Log Completeness:** 100% of key events captured.  
+- **System Performance:** <5% performance overhead due to logging.  
+- **Audit Efficiency:** Historical logs retrievable within 2 minutes.  
+
+## Outcome:  
+
+- A robust logging and monitoring system that ensures data transparency and accountability.
+
