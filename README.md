@@ -15,7 +15,7 @@ The AI developer client uses web scraping to collect training data for AI models
 - Developers want to know that the training data they are using is “balanced” (does not contain biases) because this will give them better AI models
 
 ---
-### Q) Analysis of current 2 requirements: 
+# Q) Analysis of current 2 requirements: 
 
 ### Requirement 1: Categorized Training Questions & Answers
 
@@ -638,7 +638,7 @@ As a system architect, I want an efficient search and query engine so that I can
 
 - A high-performance search engine that enables quick and accurate data retrieval.
 
-### Reference:
+# Reference:
 
 [1] github.com. (n.d.). Line breaks. docs.github.com. [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks)
 
