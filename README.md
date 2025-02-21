@@ -33,7 +33,7 @@ As an AI developer, I want training questions to be categorized separately from 
 
 - Do you think Determine whether categorization improves searchability and organization in AI training ? 
 
-Follow-Up Questions
+### Follow-Up Questions
 	
 	- What methods were tried before to organise ?
 
