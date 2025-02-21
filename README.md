@@ -467,3 +467,45 @@ As a system architect, I want an automated data preprocessing and cleaning pipel
 
 - A structured and high-quality dataset ready for AI training.
 
+### System Requirement 3: Data Bias Detection & Balancing Mechanism  
+
+As a system architect, I want a bias detection and balancing mechanism so that I can ensure AI training data is representative and fair.  
+
+## Assumptions:  
+
+- Training data can contain biases that affect AI model performance. (IBM, 2023)  
+- Automated techniques can help identify and mitigate bias.  
+
+## Validation:  
+
+- Measure bias levels in existing datasets using statistical methods.  
+  - **Follow-Up Questions:**  
+    - What statistical methods are used to measure bias?  
+    - How significant are the biases in the current datasets?  
+
+- Compare AI model outputs before and after applying bias mitigation techniques.  
+  - **Follow-Up Questions:**  
+    - How do bias mitigation techniques affect model outputs?  
+    - What metrics are used to evaluate the impact?  
+
+- Conduct fairness testing using diverse input scenarios.  
+  - **Follow-Up Questions:**  
+    - What input scenarios are used for fairness testing?  
+    - How is fairness measured in these scenarios?  
+
+## Preliminary Tasks:  
+
+- [ ] Implement algorithms to detect overrepresented or underrepresented categories.  
+- [ ] Develop tools for rebalancing datasets through sampling techniques.  
+- [ ] Provide reports summarizing bias metrics for developer review.  
+- [ ] Test bias detection on real-world datasets.  
+
+## Metrics for Success:  
+
+- Bias Detection Accuracy: >90% in detecting bias.  
+- False Positive Rate: <5% false positives.  
+- Performance Consistency: <2% performance difference across groups.  
+
+## Outcome:  
+
+- A bias-aware dataset that enhances the fairness of AI models.
