@@ -67,3 +67,47 @@ As an AI developer, I want training questions to be categorized separately from 
 
 - A structured system where training questions are categorized and separate from answers, improving usability for developers.
 
+### Requirement 2: Balanced & Bias-Free Training Data  
+
+As an AI developer, I want the training data to be balanced and free of biases so that I can build more reliable AI models.  
+
+## Assumption:  
+
+- Unbalanced training data negatively affects AI model performance.  
+- Biases exist in web-scraped data and need mitigation.  
+
+## Validation:  
+
+- Do analysis of scraped training data to check for common biases (e.g., gender, racial, political biases).  
+  - **Follow-Up Questions:**  
+    - What methods are currently used to detect biases in the training data?  
+    - How frequently are biases identified in the current datasets?  
+
+- Compare AI performance metrics before and after applying bias mitigation techniques.  
+  - **Follow-Up Questions:**  
+    - What specific performance metrics are used to evaluate AI models?  
+    - How significant is the performance improvement after bias mitigation?  
+
+- Gather feedback from developers on whether biased datasets have affected their previous models.  
+  - **Follow-Up Questions:**  
+    - Can you provide examples of how biased data has impacted your models?  
+    - What steps have you taken in the past to address these biases?  
+
+## Preliminary Tasks:  
+
+- [ ] Identify common sources of bias in scraped data.  
+- [ ] Implement a bias-detection mechanism for automated flagging.  
+- [ ] Review academic research on bias mitigation strategies.  
+- [ ] Test small-scale AI models with and without bias correction.  
+- [ ] Assess if manual review of flagged biases is necessary or if automation suffices.  
+
+## Metrics for Success:  
+
+- Bias Detection Accuracy: >90% in detecting bias.  
+- False Positive Rate: <5% false positives.  
+- Performance Consistency: <2% performance difference across groups.  
+
+## Outcome:  
+
+- A training dataset that minimizes biases and leads to improved AI model fairness and accuracy.
+
